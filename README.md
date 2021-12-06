@@ -1,2 +1,0 @@
-# Hi
-a new study
