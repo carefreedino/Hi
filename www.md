@@ -1,8 +1,6 @@
 #hi
 study how to write markdown file
-#title
-
-document
+# title document
 
 ## second title
 *
