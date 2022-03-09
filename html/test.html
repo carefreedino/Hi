@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <p name="name-p">第一段落</p>
+        <p name="name-p">第二段落</p>
+        <p name="name-p">第三段落</p>
+        <script>
+            var v_name_p =document.getElementsByName("name-p");
+            console.log(v_name_p);
+            var len = v_name_p.length;
+            for(i=0;i<len;i++){
+                console.log(v_name_p[i].innerText);
+            }
+        </script>
+    </body>
+</html>
